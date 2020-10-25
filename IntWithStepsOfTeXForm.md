@@ -28,7 +28,7 @@ Flatten//
 Most//
 Cases[RubiIntermediateResult[x_]:>"=&"<>(TeX2Str[HoldForm@@x])<>"\\\\"]//
 {"\\begin{aligned}",TeX2Str@HoldForm@Int[expr,var],##&@@#,"\\end{aligned}"}&//
-StringReplace[{"\\,d"->"\\,\\mathrm{d}","\\int"->"\\\int"}]//
+StringReplace[{"\\,d"->"\\,\\mathrm{d}"}]//
 StringRiffle]
 ```
 
