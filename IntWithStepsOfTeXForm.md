@@ -38,13 +38,13 @@ StringRiffle]
 IntWithStepsOfTeXForm[Sin[x]/x^3,x]
 ```
 
-![1](http://latex.codecogs.com/svg.latex?\begin{aligned}\int\frac{\sin(x)}{x^3}\mathrm{d}x=&-\frac{\sin(x)}{2x^2}+\frac{1}{2}\int\frac{\cos(x)}{x^2}\mathrm{d}x\\\\=&-\frac{\cos(x)}{2x}-\frac{\sin(x)}{2x^2}-\frac{1}{2}\int\frac{\sin(x)}{x}\mathrm{d}x\\\\=&-\frac{\cos(x)}{2x}-\frac{\sin(x)}{2x^2}-\frac{\text{Si}(x)}{2}+C\end{aligned})
+$$\begin{aligned}\int\frac{\sin(x)}{x^3}\mathrm{d}x=&-\frac{\sin(x)}{2x^2}+\frac{1}{2}\int\frac{\cos(x)}{x^2}\mathrm{d}x\\\\=&-\frac{\cos(x)}{2x}-\frac{\sin(x)}{2x^2}-\frac{1}{2}\int\frac{\sin(x)}{x}\mathrm{d}x\\\\=&-\frac{\cos(x)}{2x}-\frac{\sin(x)}{2x^2}-\frac{\text{Si}(x)}{2}+C\end{aligned}$$
 
 ```mathematica
 IntWithStepsOfTeXForm[(x^2+x+1)/(x^4+x^3+x+1),x]
 ```
 
-![1](http://latex.codecogs.com/svg.latex?\begin{aligned}\displaystyle\int\frac{1+x+x^2}{1+x+x^3+x^4}\,\mathrm{d}x=&\displaystyle\int\left(\frac{1}{3(1+x)^2}+\frac{2}{3\left(1-x+x^2\right)}\right)\,\mathrm{d}x\\\\=&-\frac{1}{3(1+x)}+\frac{2}{3}\displaystyle\int\frac{1}{1-x+x^2}\,\mathrm{d}x\\\\=&-\frac{1}{3(1+x)}-\frac{4}{3}\text{Subst}\left(\displaystyle\int\frac{1}{-3-x^2}\,\mathrm{d}x,x,-1+2x\right)\\\\=&-\frac{1}{3(1+x)}-\frac{4\tan^{-1}\left(\frac{1-2x}{\sqrt{3}}\right)}{3\sqrt{3}}+C\end{aligned})
+$$\begin{aligned}\displaystyle\int\frac{1+x+x^2}{1+x+x^3+x^4}\,\mathrm{d}x=&\displaystyle\int\left(\frac{1}{3(1+x)^2}+\frac{2}{3\left(1-x+x^2\right)}\right)\,\mathrm{d}x\\\\=&-\frac{1}{3(1+x)}+\frac{2}{3}\displaystyle\int\frac{1}{1-x+x^2}\,\mathrm{d}x\\\\=&-\frac{1}{3(1+x)}-\frac{4}{3}\text{Subst}\left(\displaystyle\int\frac{1}{-3-x^2}\,\mathrm{d}x,x,-1+2x\right)\\\\=&-\frac{1}{3(1+x)}-\frac{4\tan^{-1}\left(\frac{1-2x}{\sqrt{3}}\right)}{3\sqrt{3}}+C\end{aligned}$$
 
 本文目前发在了
 
