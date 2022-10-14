@@ -48,10 +48,10 @@ $$\begin{aligned}\displaystyle\int\frac{1+x+x^2}{1+x+x^3+x^4}\,\mathrm{d}x=&\dis
 
 本文目前发在了
 
--[知乎](https://zhuanlan.zhihu.com/p/139362547)
+- [知乎](https://zhuanlan.zhihu.com/p/139362547)
 
--[MSE](https://mathematica.stackexchange.com/questions/221487/how-to-directly-get-the-texform-of-each-steps-from-rubi/221488#221488)
+- [MSE](https://mathematica.stackexchange.com/questions/221487/how-to-directly-get-the-texform-of-each-steps-from-rubi/221488#221488)
 
--[超理](https://chaoli.club/index.php/5300/p1#p53320)
+- [超理](https://chaoli.club/index.php/5300/p1#p53320)
 
 >Mathematica使用人数好少啊。。。
