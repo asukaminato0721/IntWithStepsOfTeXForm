@@ -2,7 +2,7 @@
 
 ## 安装Rubi库(Install Rubi)
 
-如果 Mathematica 版本![1](http://latex.codecogs.com/svg.latex?\geqslant11.3)
+如果 Mathematica 版本 $\geqslant11.3$
 
 可直接运行
 
